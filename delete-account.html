@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Account Deletion - Household Expense Tracker</title>
+  <meta name="description" content="Account deletion instructions and data deletion policy for Household Expense Tracker.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Household Expense Tracker</a>
+      <div class="nav-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a aria-current="page" href="delete-account.html">Account Deletion</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="policy-page">
+    <article class="content document">
+      <p class="eyebrow">Account deletion request information</p>
+      <h1>Delete Your Household Expense Tracker Account</h1>
+      <p class="lead">
+        Users can delete their Household Expense Tracker account from inside the app. This page explains what
+        is deleted, what may be retained, and how retained shared household records are handled.
+      </p>
+      <div class="notice" role="note" aria-label="Subscription cancellation notice">
+        <strong>Subscription notice:</strong> Deleting your account does not automatically
+        cancel any subscription purchased through Google Play or the Apple App Store.
+        Subscriptions must be canceled separately through the platform where they were
+        purchased.
+      </div>
+
+      <section aria-labelledby="delete-in-app">
+        <h2 id="delete-in-app">How to Delete Your Account</h2>
+        <p>
+          To delete your account, open Household Expense Tracker and use the in-app account deletion option
+          from the account or settings area. You may be asked to confirm your request or
+          re-authenticate before deletion is completed.
+        </p>
+        <p>
+          If you cannot access the app or need help with account deletion, contact
+          Nagy Tech Studio at <a href="mailto:nagykrisztian.endre@gmail.com">nagykrisztian.endre@gmail.com</a> from the email
+          address associated with your account, if possible.
+        </p>
+      </section>
+
+      <section aria-labelledby="deleted-data">
+        <h2 id="deleted-data">Data That Is Deleted</h2>
+        <p>When your Household Expense Tracker account is deleted, the following data is deleted or scheduled for deletion:</p>
+        <ul>
+          <li>Authentication account data, including the Firebase Authentication account associated with your Household Expense Tracker account.</li>
+          <li>User profile and account data.</li>
+          <li>Personal data directly associated with your user account.</li>
+          <li>Direct identifiers that connect your personal account to app data, except where temporary retention is required for backup, security, or legal reasons.</li>
+        </ul>
+        <p>
+          Deleting your app account does not automatically cancel any active subscription.
+          Active subscriptions must be canceled separately through Google Play or the Apple
+          App Store.
+        </p>
+      </section>
+
+      <section aria-labelledby="retained-data">
+        <h2 id="retained-data">Data That May Be Retained</h2>
+        <p>
+          Household Expense Tracker supports shared household finance tracking. To preserve the accuracy and
+          integrity of shared household financial history and calculations for the remaining
+          household members, shared household transaction records may be retained after your
+          account is deleted.
+        </p>
+        <p>
+          Retention of shared household transaction records is limited to preserving the
+          household's financial history. Deleting your account does not mean that all shared
+          household expenses or shared household transaction records are removed from the
+          household history.
+        </p>
+        <p>
+          Subscription billing is handled separately by the store platform. You may wish to
+          cancel your subscription before or after deleting your account to avoid future
+          renewal charges, depending on platform billing rules.
+        </p>
+      </section>
+
+      <section aria-labelledby="anonymization">
+        <h2 id="anonymization">How Retained Shared Records Are Anonymized</h2>
+        <p>
+          When shared household transaction records are retained after account deletion,
+          identifiers such as your user ID and display name are removed or replaced. Retained
+          shared records are no longer linked to the deleted user account.
+        </p>
+        <p>
+          This means the remaining household can keep accurate transaction totals, balances,
+          and history, while the retained shared records no longer identify you as the deleted
+          account holder.
+        </p>
+      </section>
+
+      <section aria-labelledby="backup-retention">
+        <h2 id="backup-retention">Backup Retention</h2>
+        <p>
+          Backup copies of deleted personal account data may remain for up to 30 days before
+          permanent removal. During this period, backup data is retained only for backup,
+          recovery, security, and operational integrity purposes.
+        </p>
+      </section>
+
+      <section aria-labelledby="support">
+        <h2 id="support">Support Contact</h2>
+        <p>
+          For help with account deletion or questions about retained data, contact
+          Nagy Tech Studio at <a href="mailto:nagykrisztian.endre@gmail.com">nagykrisztian.endre@gmail.com</a>.
+        </p>
+      </section>
+
+      <section aria-labelledby="privacy-link">
+        <h2 id="privacy-link">Related Privacy Information</h2>
+        <p>
+          For more information about how Household Expense Tracker handles user data, read the
+          <a href="privacy-policy.html">Household Expense Tracker Privacy Policy</a>. For terms
+          that apply to using the app, read the <a href="terms-of-use.html">Terms of Use</a>.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="content footer-content">
+      <p>&copy; <span id="year"></span> Nagy Tech Studio. All rights reserved.</p>
+      <p><a href="index.html">Home</a> &middot; <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms-of-use.html">Terms of Use</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

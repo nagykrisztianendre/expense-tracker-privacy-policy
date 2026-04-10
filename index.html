@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Household Expense Tracker Compliance Pages</title>
+  <meta name="description" content="Privacy Policy, Terms of Use, and Account Deletion information for Household Expense Tracker.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Household Expense Tracker</a>
+      <div class="nav-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html">Terms of Use</a>
+        <a href="delete-account.html">Account Deletion</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="content">
+        <p class="eyebrow">Public compliance information</p>
+        <h1 id="page-title">Household Expense Tracker</h1>
+        <p class="lead">
+          Privacy, terms, and account deletion information for users of Household Expense Tracker, provided by
+          Nagy Tech Studio.
+        </p>
+        <div class="actions" aria-label="Compliance pages">
+          <a class="button primary" href="privacy-policy.html">Read Privacy Policy</a>
+          <a class="button secondary" href="terms-of-use.html">Terms of Use</a>
+          <a class="button secondary" href="delete-account.html">Account Deletion</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-title">
+      <div class="content two-column">
+        <div>
+          <h2 id="about-title">About These Pages</h2>
+          <p>
+            These public pages are provided for Google Play compliance and user transparency.
+            They explain how Household Expense Tracker handles user data, the terms for using the app,
+            and how users can delete their account.
+          </p>
+          <p>
+            Deleting your account does not automatically cancel any subscription purchased
+            through Google Play or the Apple App Store. Subscriptions must be canceled
+            separately through the platform where they were purchased. See
+            <a href="delete-account.html">Account Deletion</a> for details.
+          </p>
+        </div>
+        <div class="info-panel">
+          <h3>Contact</h3>
+          <p>
+            For privacy or account deletion questions, contact:
+            <a href="mailto:nagykrisztian.endre@gmail.com">nagykrisztian.endre@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="content footer-content">
+      <p>&copy; <span id="year"></span> Nagy Tech Studio. All rights reserved.</p>
+      <p><a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms-of-use.html">Terms of Use</a> &middot; <a href="delete-account.html">Account Deletion</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
